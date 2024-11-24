@@ -12,7 +12,6 @@ header {
     background-position: center, center;
     background-repeat: no-repeat, no-repeat;
     background-size: cover, contain;
-    color: white;
     padding: 20px 0;
 }
 
@@ -30,15 +29,20 @@ header {
     align-items: center;    /* Alinha verticalmente os itens */
     gap: 20px;              /* Espaçamento entre os itens */
     color: #ccc;
+    font-weight: bold;
 }
 
 .img-sobre {
-    max-width: 200px;       /* Define tamanho máximo da imagem */
+    max-width: 250px;       /* Define tamanho máximo da imagem */
+    border-radius: 10px;    /* Bordas arredondadas */
+}
+.img-ensaio {
+    max-width: 400px;       /* Define tamanho máximo da imagem */
     border-radius: 10px;    /* Bordas arredondadas */
 }
 
 article {
-    max-width: 400px;       /* Limita a largura do texto */
+    max-width: 300px;       /* Limita a largura do texto */
 }
 
 h2 {
@@ -50,7 +54,7 @@ section {
     margin: 20px;
     padding: 20px;
     background: url(../images/background-2.jpg);
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -58,7 +62,7 @@ section {
 .orcamento {
     margin: 10px 0;
     padding: 15px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 5px;
     background: #f4f4f4;
 }
