@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedro Photo</title>
+    <link rel="shortcut icon" href="imgs/logo-icon.svg" type="image/x-icon">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 </head>
 <body>   
     <header>
          <a href="/index.html">
             <img src="images/logo.png" alt="" width="250px">
          </a>
+         <nav>
+            <ul>
+                <li><a href="#sobre">Home</a></li>
+                <li><a href="#orcamentos">Orçamentos</a></li>
+                <li><a href="#contato">Contatos</a></li>
+                <li><a href="#feedbacks">FeedBacks</a></li>
+                <!-- <li><a href="#feedbacks">Informações</a></li> -->
+            </ul>
+         </nav>
     </header>
     <section id="sobre">
         <div class="central" >
@@ -58,35 +69,71 @@
     </section>
     <section id="orcamentos">
         <h2>Orçamentos</h2>
-        <div class="orcamento">
-            <h3>Ouro</h3>
-            <ul>
-                <li>10 fotos digitais</li>
-                <li>Produção de vídeo editado</li>
-                <li>Limite de 1 look</li>
-                <li>Um estilo de ensaio</li>
-            </ul>
-            <p><strong>R$ 100,00</strong></p>
+        <div class="grid-container">
+            <div class="orcamento">
+                <a href="https://wa.me/5582996356599?text=Olá!%20Tenho%20interesse%20no%20Pacote%20Ouro.%20Gostaria%20de%20saber%20mais%20detalhes%20sobre%20o%20que%20está%20incluído%20e%20quais%20as%20vantagens%20deste%20pacote.%20Pode%20me%20ajudar?%20Obrigado!%20🥰">
+                    <img class="img-orcamento" src="images/ouro.png" alt="">
+                </a>
+                <div>
+                    <h3>Ouro</h3>
+                    <ul>
+                        <li>25 fotos digitais</li>
+                        <li>Produção de vídeo editado</li>
+                        <li>Limite de 3 looks</li>
+                        <li>Dois estilos diferentes de ensaio</li>
+                    </ul>
+                    <!-- <p><strong>R$ 250,00</strong></p> -->
+                    <a href="https://wa.me/5582996356599?text=Olá!%20Tenho%20interesse%20no%20Pacote%20Ouro.%20Gostaria%20de%20saber%20mais%20detalhes%20sobre%20o%20que%20está%20incluído%20e%20quais%20as%20vantagens%20deste%20pacote.%20Pode%20me%20ajudar?%20Obrigado!%20🥰">Solicite mais Informações.</a>
+
+                </div>
+        
+        
+            </div>
+            <div class="orcamento">
+                <a href="https://wa.me/5582996356599?text=Olá!%20Estou%20interessado%20no%20Pacote%20Prata.%20Poderia%20me%20enviar%20mais%20informações,%20como%20preço%20e%20benefícios?%20Agradeço%20desde%20já!%20😃
+                ">
+                    <img class="img-orcamento" src="images/prata.png" alt="">
+                </a>
+                <div>
+                    <h3>Prata</h3>
+                    <ul>
+                        <li>15 fotos digitais</li>
+                        <li>Produção de vídeo editado</li>
+                        <li>Limite de 2 looks</li>
+                        <li>Um estilo de ensaio</li>
+                    </ul>
+                    <!-- <p><strong>R$ 150,00</strong></p> -->
+                    <a href="https://wa.me/5582996356599?text=Olá!%20Estou%20interessado%20no%20Pacote%20Prata.%20Poderia%20me%20enviar%20mais%20informações,%20como%20preço%20e%20benefícios%20Agradeço%20desde%20já!%20😃">Solicite mais Informações.</a>
+                </div>
+            </div>
+            <div  class="orcamento">
+                <a href="https://wa.me/SEUNUMERO?text=Olá!%20Gostei%20do%20Pacote%20Bronze%20e%20quero%20saber%20mais%20sobre%20ele.%20Pode%20me%20explicar%20o%20que%20está%20incluso%20e%20como%20funciona?%20Obrigado!%20🤗">
+                    <img class="img-orcamento" src="images/bronze.png" alt="">
+                </a>
+                <div>
+                    <h3>Bronze</h3>
+                    <ul>
+                        <li>10 fotos digitais</li>
+                        <li>Produção de vídeo editado</li>
+                        <li>Limite de 1 look</li>
+                        <li>Um estilo de ensaio</li>
+                    </ul>
+                    <!-- <p><strong>R$ 100,00</strong></p> -->
+                    <a href="https://wa.me/SEUNUMERO?text=Olá!%20Gostei%20do%20Pacote%20Bronze%20e%20quero%20saber%20mais%20sobre%20ele.%20Pode%20me%20explicar%20o%20que%20está%20incluso%20e%20como%20funciona?%20Obrigado!%20🤗">
+                        Solicite mais Informações.
+                    </a>
+                </div>
+            </div>
         </div>
+    </section>
+    <section id="formas-pagamento">
+        <h2>Formas de Pagamento</h2>
         <div class="orcamento">
-            <h3>Prata</h3>
             <ul>
-                <li>15 fotos digitais</li>
-                <li>Produção de vídeo editado</li>
-                <li>Limite de 2 looks</li>
-                <li>Um estilo de ensaio</li>
+                <li>PIX</li>
+                <li>Dinheiro</li>
+                <li>Cartão de crédito (Com juros da maquineta)</li>
             </ul>
-            <p><strong>R$ 150,00</strong></p>
-        </div>
-        <div class="orcamento">
-            <h3>Bronze</h3>
-            <ul>
-                <li>25 fotos digitais</li>
-                <li>Produção de vídeo editado</li>
-                <li>Limite de 3 looks</li>
-                <li>Dois estilos diferentes de ensaio</li>
-            </ul>
-            <p><strong>R$ 250,00</strong></p>
         </div>
     </section>
     <section id="informacoes">
@@ -98,9 +145,17 @@
             <li>Entrega em até 7 dias para o menor pacote.</li>
         </ul>
     </section>
+    <section id="contatos">
+        <h2>Contatos</h2>
+            <a href="https://www.facebook.com/mariaandrezacs"><i class="fa-brands fa-facebook"> </i></a> 
+            <a target="_blank" href="https://www.instagram.com/mariaandrezacs/"><i class="fa-brands fa-instagram"> </i></a>
+            <a href="tel:+5511999998888"><i class="fa-solid fa-phone"></i></a>
+            <a href="tel:+5511999998888" ></a>
+
+            <a href="mailto:mariaandrezacs@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </section>
     <footer>
-        <p>Contato: <a href="tel:+5582996356599">(82) 99635-6599</a> | Instagram: <a href="https://instagram.com/pedrophoto_">@pedrophoto_</a></p>
-        <p>Formas de pagamento: Pix, dinheiro, cartão de crédito.</p>
+        <p>&copy; 2024 Pedro Photo. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
