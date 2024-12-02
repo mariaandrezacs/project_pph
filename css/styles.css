@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url(/images/background-2.jpg);
+    background: url(../images/background-2.jpg);
     color: #020202;
     background-attachment: fixed;
 
@@ -135,7 +135,7 @@ section {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #222;
+    /* background: #222; */
     color: white;
 }
 
