@@ -4,15 +4,61 @@ body {
     padding: 0;
     background-image: url(../images/logo.png);
     color: #020202;
+    background-attachment: fixed;
 }
 
 header {
     text-align: center;
     background-image: url(../images/background-2.jpg) ;
-    background-position: center, center;
+    background-position: center;
     background-repeat: no-repeat, no-repeat;
     background-size: cover, contain;
     padding: 20px 0;
+    
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;    /* Centraliza verticalmente */
+    text-align: center;     /* Centraliza texto */
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    font-size: 18px;
+    background-image: url(../images/background-2.jpg);
+    border-radius: 10px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 #sobre {
@@ -54,17 +100,35 @@ section {
     margin: 20px;
     padding: 20px;
     background: url(../images/background-2.jpg);
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas de tamanho igual */
+    grid-gap: 25px; /* Espaçamento entre os itens */
+    padding: 10px; 
+
+}
 
 .orcamento {
-    margin: 10px 0;
-    padding: 15px;
+    margin: 15px;
+    padding: 30px;
     border: 2px solid #ccc;
-    border-radius: 5px;
-    background: #f4f4f4;
+    border-radius: 15px;
+    background: #cccaca;
+    display: flex;          /* Ativa Flexbox no contêiner */
+    flex-wrap: wrap;        /* Permite quebrar linha em telas menores */
+    justify-content: center; /* Centraliza os itens dentro do contêiner */
+    align-items: center;    /* Alinha verticalmente os itens */
+    font-weight: bold;
+    /* max-width: 400px; */
+}
+
+.img-orcamento {
+    max-width: 200px;       /* Define tamanho máximo da imagem */
+    border-radius: 10px;    /* Bordas arredondadas */
 }
 
 footer {
@@ -72,4 +136,25 @@ footer {
     padding: 10px 0;
     background: #222;
     color: white;
+}
+
+@media screen  {
+    
+}
+
+/* Consultas de mídia para telas menores */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* 2 colunas em telas menores */
+
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* 2 colunas em telas menores */
+        max-width: 100px;       /* Define tamanho máximo da imagem */
+        border-radius: 10px;    /* Bordas arredondadas */
+    }
+
 }
