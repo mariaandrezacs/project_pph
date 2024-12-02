@@ -144,7 +144,7 @@ footer {
 
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 768px){
     .grid-container {
         grid-template-columns: 1fr; /* 2 colunas em telas menores */
         border-radius: 10px;    /* Bordas arredondadas */
